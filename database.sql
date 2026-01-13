@@ -1,0 +1,10 @@
+CREATE DATABASE game_doan_so;
+USE game_doan_so;
+CREATE TABLE users (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    score INT DEFAULT 0,
+    turns INT DEFAULT 5,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

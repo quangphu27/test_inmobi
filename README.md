@@ -9,7 +9,7 @@ Cập nhật cấu hình username, password databse mysql theo cấu hình máy
 cd game-doan-so
 mvnw clean install
 mvnw spring-boot:run
-```bash
+```
 
 2.2.test 1 số API trên postman
 -Đăng ký tài khoản
